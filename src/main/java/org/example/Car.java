@@ -15,9 +15,7 @@ public class Car extends Vehicle {
     // CONSTRUCTORS
     public Car () {
         // Default Constructor
-        super();
     }
-
     public Car(String brand, String model, int yearOfConstruction, int doorCount) {
         super(brand, model, yearOfConstruction);
         this.doorCount = doorCount;
